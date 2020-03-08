@@ -11,11 +11,11 @@ int main(void)
 {
 	DDRD = 0xFF;
 	PORTD = 0x00;
-	create();
+	adc_init();
 
 	while(1)
 	{
-		PORTD = read();
+		PORTD = adc_read();
 
 		_delay_ms(200);
 	}
