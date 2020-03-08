@@ -1,0 +1,10 @@
+build/artifacts
+build/gcov
+build/logs 
+build/temp
+build/test
+project.yml
+*.elf
+*.hex
+*.out
+*.o
