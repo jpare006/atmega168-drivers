@@ -1,5 +1,5 @@
 /**
- * @file atmega168_timer.c
+ * @file atmega168_timer.h
  *
  * @brief 
  * Driver code for atmega168 8-bit timer.
