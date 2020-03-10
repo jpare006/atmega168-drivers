@@ -1,5 +1,5 @@
 /**
- * @file uart.h
+ * @file adc.c
  *
  * @brief 
  * ADC library for the ATmega168. 

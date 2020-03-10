@@ -1,5 +1,5 @@
 /**
- * @file timer.h
+ * @file timer.c
  *
  * @brief 
  * Timer library for the ATmega168. This library gives the user access to the underlying
