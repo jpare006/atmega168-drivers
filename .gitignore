@@ -8,3 +8,5 @@ project.yml
 *.hex
 *.out
 *.o
+src/uart/CircularBuffer.c
+src/uart/CircularBuffer.h
