@@ -8,7 +8,7 @@ uint16_t period;
 void setUp(void)
 {
 	period = 50;
-	create_Ignore();
+	create_timer_Ignore();
 	on_Ignore();
 
 	timer_init(period);
@@ -21,7 +21,7 @@ void tearDown(void)
 
 void test_timer_Init(void)
 {
-    create_Expect();
+    create_timer_Expect();
 
     timer_init(period);
 

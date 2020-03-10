@@ -16,7 +16,7 @@ void tearDown(void)
 
 void test_AdcInit(void)
 {
-    create_Expect();
+    create_adc_Expect();
 
     adc_init();
 }
