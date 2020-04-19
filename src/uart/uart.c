@@ -10,7 +10,7 @@
  */
 
 #include "uart.h"
-#include "uart_atmega168.h"
+#include "atmega168_uart.h"
 
 //circular buffer used to store incoming data
 //

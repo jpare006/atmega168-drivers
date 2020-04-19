@@ -1,5 +1,5 @@
 /**
- * @file uart_atmega168.c
+ * @file atmega168_uart.c
  *
  * @brief 
  * ATmega168 driver code. This code implements an interface to control the ATmega168's
@@ -13,7 +13,7 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 
-#include "uart_atmega168.h"
+#include "atmega168_uart.h"
 
 
 

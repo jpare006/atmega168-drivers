@@ -1,7 +1,7 @@
 #include "unity.h"
 
 #include "uart.h"
-#include "mock_uart_atmega168.h"
+#include "mock_atmega168_uart.h"
 #include "CircularBuffer.h"
 
 

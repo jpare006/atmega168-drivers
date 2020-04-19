@@ -1,12 +1,12 @@
 /**
- * @file uart_atmega168.c
+ * @file atmega168_uart.c
  *
  * @brief 
  * ATmega168 driver code. This code implements an interface to control the ATmega168's
  * USART peripheral.
  */
-#ifndef _UART_ATMEGA168_H_
-#define _UART_ATMEGA168_H_
+#ifndef _ATMEGA168_UART_H
+#define _ATMEGA168_UART_H
 
 typedef int BOOL;
 enum {TRUE = 1, FALSE = 0};
@@ -20,4 +20,4 @@ void flush(void);
 uint8_t receive(void);
 extern void uart_rx_complete_ISR(void);
 
-#endif /*_UART_ATMEGA168_H_*/
+#endif /*_ATMEGA168_UART_H*/
