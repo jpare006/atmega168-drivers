@@ -3,10 +3,10 @@ build/gcov
 build/logs 
 build/temp
 build/test
-project.yml
+#project.yml
 *.elf
 *.hex
 *.out
 *.o
-src/uart/CircularBuffer.c
-src/uart/CircularBuffer.h
+#src/uart/CircularBuffer.c
+#src/uart/CircularBuffer.h
